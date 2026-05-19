@@ -1,122 +1,153 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Privacy Policy — Momentum ADHD</title>
-    <style>
-        * { margin: 0; padding: 0; box-sizing: border-box; }
-        body {
-            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
-            background: #F2EADC;
-            color: #2C2520;
-            line-height: 1.7;
-            padding: 40px 20px 80px;
-        }
-        .container {
-            max-width: 680px;
-            margin: 0 auto;
-        }
-        h1 {
-            font-size: 28px;
-            font-weight: 700;
-            margin-bottom: 4px;
-            color: #B8451A;
-        }
-        .updated {
-            font-size: 14px;
-            color: #7A6F64;
-            margin-bottom: 36px;
-        }
-        h2 {
-            font-size: 16px;
-            font-weight: 700;
-            text-transform: uppercase;
-            letter-spacing: 0.5px;
-            margin-top: 32px;
-            margin-bottom: 12px;
-            color: #2C2520;
-        }
-        p, li {
-            font-size: 15px;
-            margin-bottom: 12px;
-        }
-        ul {
-            padding-left: 24px;
-            margin-bottom: 12px;
-        }
-        li { margin-bottom: 6px; }
-        a { color: #B8451A; }
-        .footer {
-            margin-top: 48px;
-            padding-top: 24px;
-            border-top: 1px solid #D6CCBE;
-            font-size: 13px;
-            color: #7A6F64;
-        }
-    </style>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="index, follow">
+<title>Momentum — Privacy Policy</title>
+<style>
+  :root {
+    --bg: #f2eadc;
+    --ink: #1b1a17;
+    --muted: #5a554b;
+    --accent: #b8451a;
+    --rule: #d8cebb;
+  }
+  html { -webkit-text-size-adjust: 100%; }
+  body {
+    background: var(--bg);
+    color: var(--ink);
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Helvetica Neue", Arial, sans-serif;
+    line-height: 1.55;
+    margin: 0;
+    padding: 0 20px 80px;
+    -webkit-font-smoothing: antialiased;
+  }
+  main {
+    max-width: 720px;
+    margin: 0 auto;
+    padding: 48px 0 0;
+  }
+  h1 {
+    font-family: "Source Serif 4", "Source Serif Pro", Georgia, "Times New Roman", serif;
+    font-style: italic;
+    font-weight: 500;
+    font-size: 2rem;
+    line-height: 1.2;
+    margin: 0 0 4px;
+  }
+  .updated {
+    color: var(--muted);
+    font-size: 0.875rem;
+    margin: 0 0 32px;
+  }
+  h2 {
+    font-size: 1.125rem;
+    font-weight: 600;
+    margin: 32px 0 12px;
+    padding-top: 16px;
+    border-top: 1px solid var(--rule);
+  }
+  h2:first-of-type { border-top: none; padding-top: 0; }
+  p { margin: 0 0 14px; }
+  ul { margin: 0 0 14px 0; padding-left: 20px; }
+  li { margin-bottom: 6px; }
+  strong { font-weight: 600; }
+  a { color: var(--accent); text-decoration: underline; text-underline-offset: 2px; }
+  a:hover { text-decoration: none; }
+  footer {
+    max-width: 720px;
+    margin: 64px auto 0;
+    padding-top: 24px;
+    border-top: 1px solid var(--rule);
+    color: var(--muted);
+    font-size: 0.875rem;
+  }
+</style>
 </head>
 <body>
-    <div class="container">
-        <h1>Privacy Policy</h1>
-        <p class="updated">Last updated: May 15, 2026</p>
+<main>
+<h1>Momentum — Privacy Policy</h1>
+<p class="updated"><em>Last updated: 2026-05-19</em></p>
 
-        <h2>1. Who We Are</h2>
-        <p>Momentum is published by Adrian Gratar (the "developer", "we", "us"). Contact: <a href="mailto:the.real.momentum.app@gmail.com">the.real.momentum.app@gmail.com</a>.</p>
+<h2>1. Who we are</h2>
+<p>Momentum is published by Adrian Gratar, an independent developer ("we", "us", "our"). Contact: <a href="mailto:the.real.momentum.app@gmail.com">the.real.momentum.app@gmail.com</a>.</p>
 
-        <h2>2. What We Collect — and What We Don't</h2>
-        <p>We do not collect personal information. We do not require sign-up, email, phone number, location, contacts, photos, or device identifiers.</p>
-        <p>Everything you enter into Momentum — tasks, stash notes, emotional check-ins, completed sessions, optional task notes, target dates — is stored only on your device using Apple's SwiftData (an on-device SQLite store managed by iOS).</p>
-        <p>If, in a future update, you opt in to iCloud sync, your data will replicate via your private iCloud account using Apple's CloudKit. We never see that data; only your Apple ID can read it. iCloud sync is currently disabled.</p>
+<h2>2. What we collect — and what we don't</h2>
+<p>We do not collect personal information. We do not require sign-up, and we never ask for your name, email address, phone number, location, contacts, camera, photos, or device advertising identifier.</p>
+<p>Everything you enter into Momentum — tasks, stash items, emotional check-ins, session records, task notes, and target dates — is stored only on your device using Apple's on-device database (SwiftData / SQLite), isolated within the app's iOS sandbox.</p>
+<p>If, in a future update, you opt in to iCloud sync, your data will replicate via your personal iCloud account using Apple's CloudKit. We never have access to that data; only your Apple ID can read it. iCloud sync is not yet available.</p>
+<p>The only data we hold on our infrastructure relates to AI-feature fraud prevention. This is described in detail in Sections 3 and 4 below. It is pseudonymous (no name, email, Apple ID, or content), it is held only on Cloudflare-hosted servers we control, and it can be reset by you any time from Settings → Reset device fingerprint.</p>
 
-        <h2>3. What Gets Sent to Third Parties</h2>
-        <p>AI assistance (the "I can't start" decomposition, "this feels scary" reframe, and "AI Sort" in Stash) sends only the specific text you're acting on — a task title, an avoidance reason, or a list of stash items — to OpenAI's API for processing.</p>
-        <p>No account identifier, device identifier, location, or other context is included. OpenAI's processing of these requests is governed by OpenAI's privacy policy. We do not store these requests on any server.</p>
-        <p>If no OpenAI API key is configured on the device, all AI features fall back to a deterministic offline path; nothing leaves the device in that mode.</p>
-        <p>In-app purchases are processed by RevenueCat, Inc. RevenueCat receives a randomly-assigned customer identifier and your purchase receipt; it does not receive your name, email, or any content you enter into the app. RevenueCat's processing is governed by RevenueCat's privacy policy.</p>
-        <p>The optional Calendar feature (Premium) uses Apple's EventKit on-device. Calendar data is never transmitted off the phone.</p>
-        <p>Apple Notifications, when enabled, are scheduled locally on your device by iOS. We do not push notifications from a server.</p>
+<h2>3. AI features — what gets sent and to whom</h2>
+<p>Three optional features send text to an external AI service when you explicitly activate them: the "I can't start" step breakdown, the "this feels scary" reframe, and the AI Sort in Stash.</p>
+<p><strong>What is sent:</strong> only the specific text you are acting on — a single task title, an avoidance reason you selected, or your list of stash items. Nothing else is included: no name, email, location, check-in data, or session history.</p>
+<p><strong>What gets attached to the request for fraud prevention:</strong> an Apple App Attest assertion. Apple App Attest is an Apple framework that proves the request was made by an unmodified copy of Momentum running on a real Apple device. It produces a per-install device key identifier ("key ID") that is pseudonymous — it is not linked to your Apple ID, your name, your phone number, or anything you have entered into the app. The App Attest key ID and an associated counter of AI calls (number of calls today, this week, this month, plus input and output token totals) are stored on our Cloudflare-hosted proxy server for up to 180 days, then automatically deleted. We use these counters solely to enforce per-user usage limits, prevent abuse, and protect ourselves from runaway costs caused by automated scraping of the AI features.</p>
+<p><strong>Content safety classifier:</strong> before forwarding your text to the AI provider, our proxy runs a quick automated classifier over the text. The classifier looks for content the app is not built to help with — for example self-harm crises, requests to make weapons or synthesize drugs, requests to write programming code, requests to manipulate the AI's instructions, and content unrelated to starting personal tasks. When the classifier flags such content, the AI request is refused without being sent to Google, and the app shows a contextual response on-screen (for example, a list of crisis hotlines for self-harm content). The classifier itself is a short call to Google Gemini that processes only the text you are currently submitting; it produces a category label and is not retained.</p>
+<p><strong>How the request is routed:</strong> requests pass through a lightweight proxy server we operate, hosted on Cloudflare Workers (Cloudflare, Inc., USA). The proxy verifies the App Attest assertion, runs the content classifier, enforces per-device rate limits, and — if accepted — forwards the text to Google LLC's Gemini API. The proxy does not log the content of your prompt. The proxy retains, per device, only: (a) the App Attest key ID, (b) daily / weekly / monthly call and token counters, (c) timestamps of recent calls for burst detection, (d) a cooldown timestamp if you exceeded a limit, and (e) a signature counter used to detect replayed requests. Standard Cloudflare infrastructure logs (IP address, timestamp, request size) may be retained by Cloudflare per their data retention policy, which is typically 14 days for free-tier traffic.</p>
+<p>Google LLC processes the text using the Gemini model and returns a response. Google's processing is governed by Google's Privacy Policy and its Generative AI Additional Terms. Google is a certified participant in the EU–US Data Privacy Framework and provides a Data Processing Addendum covering EU personal data.</p>
+<p>Cloudflare is also an EU–US Data Privacy Framework participant. Both transfers therefore have an adequacy mechanism under GDPR Chapter V.</p>
+<p>On devices running iOS 26 or later with Apple Intelligence available and enabled, all three AI features process entirely on-device using Apple's FoundationModels framework — nothing is sent to any server. When on-device AI is unavailable (older OS, Apple Intelligence not enabled, or model not downloaded), the app falls back to a rule-based offline path that requires no network connection. The App Attest fraud-prevention flow only runs when the request actually leaves your device.</p>
 
-        <h2>4. Premium Subscription</h2>
-        <p>Momentum offers an optional auto-renewing subscription ("Momentum Premium") that unlocks additional features: AI-enhanced task breakdowns and reframing, AI-sorted Stash, calendar integration, 90-day insight history, and full data export.</p>
-        <p>The free tier includes emotional check-ins, adaptive task suggestions, focus sessions, deterministic task decomposition, and 14-day insights. No features are removed from the free tier after installation.</p>
-        <p>Your subscription status is stored locally on your device and verified through your Apple ID purchase receipts. We do not maintain user accounts or subscription databases on our servers.</p>
+<h2>4. In-app purchases and Premium verification</h2>
+<p>In-app purchases are processed by Apple through the App Store. RevenueCat, Inc. (USA) manages subscription entitlement caching on our behalf. RevenueCat receives a randomly-assigned anonymous customer identifier and your App Store purchase receipt. It does not receive your name, email, or any content you enter into the app. RevenueCat is subject to its own privacy policy and provides a Data Processing Addendum for EU users.</p>
+<p><strong>Server-side verification:</strong> when you purchase or restore Premium, your device sends Apple's signed transaction (a StoreKit 2 JSON Web Signature, which we verify against Apple's certificate chain) to our Cloudflare proxy so the proxy can verify your Premium status independently of the on-device flag. The proxy then stores a small binding record for your device: the product identifier you purchased, the original transaction identifier (a value assigned by Apple), the expiration timestamp, and the time the binding was made. This record is kept until your subscription expires plus a 7-day grace period, then automatically deleted. The binding is not linked to your Apple ID — it is keyed by the same pseudonymous App Attest key ID described above.</p>
+<p>The purpose of the binding is solely to make sure that AI usage attributed to Premium quotas comes from a device that has genuinely paid for Premium. It is not used for marketing or analytics.</p>
 
-        <h2>5. Analytics, Tracking, Ads</h2>
-        <p>None. Momentum contains no analytics SDKs (no Firebase, Google Analytics, Mixpanel, Amplitude, etc.), no crash reporting, no advertising libraries, no tracking pixels. App Store does provide aggregated, anonymous install statistics to developers; we have no control over and do not enrich that data.</p>
+<h2>5. Calendar integration (Premium)</h2>
+<p>The optional Calendar feature (available to Premium subscribers) reads your calendar events on-device using Apple's EventKit framework to estimate your daily meeting load and warn about session conflicts. Calendar data is never transmitted off your device.</p>
 
-        <h2>6. Children</h2>
-        <p>Momentum is not directed at children under 13. We do not knowingly collect personal information from anyone, and the app stores no personal data, but if you are a parent and believe your child has provided information you'd like removed, deleting the app fully removes all on-device data.</p>
+<h2>6. Notifications</h2>
+<p>All notifications are scheduled locally on your device by iOS. We do not operate a push notification server and no notification content passes through our infrastructure.</p>
 
-        <h2>7. Your Rights (Including GDPR / CCPA)</h2>
-        <p>Because all data lives on your device:</p>
-        <ul>
-            <li><strong>Access:</strong> open the app and view your data directly.</li>
-            <li><strong>Deletion:</strong> delete the app, or use Settings → Reset onboarding for a partial reset.</li>
-            <li><strong>Portability:</strong> Premium subscribers can export all data as JSON from Settings → Export everything.</li>
-            <li><strong>Withdrawal of consent:</strong> turn off iCloud sync (when available) and notifications in iOS Settings. Cancel your subscription anytime in iOS Settings → Apple ID → Subscriptions.</li>
-        </ul>
-        <p>For users in the EU/UK: the lawful basis we rely on is your direct provision of the data to your own device. We are not the data controller for data that never leaves your device.</p>
-        <p>For users in California: we do not "sell" or "share" personal information as defined by the CCPA.</p>
+<h2>7. No analytics, tracking, or advertising</h2>
+<p>Momentum contains no analytics SDKs (no Firebase, no Google Analytics, no Mixpanel, no Amplitude), no crash-reporting libraries, no advertising libraries, and no tracking pixels of any kind. The App Store provides aggregated, anonymous install statistics to all developers; we have no control over that data and do not enrich it.</p>
 
-        <h2>8. Data Retention</h2>
-        <p>Local data persists until you delete it or uninstall the app. We retain nothing on our side because we collect nothing.</p>
+<h2>8. Your rights</h2>
+<p>Because all personal data lives on your device, you can exercise most rights directly in the app.</p>
+<p><strong>Right of access:</strong> your data is visible directly within the app at any time. The fraud-prevention records we hold (App Attest key ID, AI usage counters, Premium binding) can be summarized on request via the email address in Section 14.</p>
+<p><strong>Right to rectification:</strong> edit or delete any item inside the app.</p>
+<p><strong>Right to erasure:</strong> use Settings → Delete all data to erase all on-device records, or simply delete the app. To erase the fraud-prevention records on our proxy, tap Settings → Reset device fingerprint — this revokes the App Attest key and tells the proxy to delete the associated counters and Premium binding within seconds.</p>
+<p><strong>Right to data portability:</strong> Premium subscribers can export all data as a PDF from Settings → Export everything.</p>
+<p><strong>Right to restriction of processing and right to object:</strong> the AI fraud-prevention processing on our proxy is the minimum necessary to prevent abuse; you can stop it entirely by not using the AI features, which is the trigger for any data leaving your device.</p>
+<p><strong>Withdrawal of consent:</strong> you can stop using AI features at any time — they are always opt-in, triggered only when you tap the relevant button. You can disable notifications in iOS Settings. You can cancel your subscription at any time in iOS Settings → Apple ID → Subscriptions.</p>
+<p><strong>For users in the EU / UK (GDPR / UK GDPR):</strong> where we act as a data controller — specifically when you voluntarily trigger an AI feature and text plus the pseudonymous App Attest key ID is transmitted to our proxy — our lawful basis is Article 6(1)(f) (legitimate interests: preventing fraud against our AI service and providing the assistance you explicitly requested) and, where applicable, Article 6(1)(a) (consent, given by the voluntary act of tapping the feature). You have the right to lodge a complaint with your national supervisory authority (in Romania: ANSPDCP, <a href="https://www.anspdcp.ro">anspdcp.ro</a>; in the EU generally: your country's data protection authority; in the UK: the ICO, <a href="https://ico.org.uk">ico.org.uk</a>).</p>
+<p><strong>For users in California (CCPA / CPRA):</strong> we do not "sell" or "share" personal information as those terms are defined by California law. The pseudonymous App Attest key ID and the associated AI usage counters constitute personal information under California's broad definition, even though they are not linked to your name or contact info. We retain that information only for fraud prevention and Premium verification, as described in Sections 3 and 4.</p>
+<p><strong>For users in Australia (Privacy Act 1988):</strong> the personal information handling described in this policy aligns with the Australian Privacy Principles. Contact us at the address below for any privacy-related requests.</p>
 
-        <h2>9. Security</h2>
-        <p>On-device data is protected by iOS sandboxing and the device passcode/Face ID/Touch ID you've set. AI requests use HTTPS with TLS. We do not operate servers of our own.</p>
+<h2>9. Children</h2>
+<p>Momentum is not directed at children. In the United States, we do not knowingly collect personal information from children under 13 (COPPA threshold). In the EU and UK, we do not knowingly collect personal information from children under 16 (GDPR threshold; some EU member states set this at 13). Because we collect no name, email, or contact information at all, there is nothing personally-identifying to remove, but if you are a parent or guardian with a concern, contacting us or tapping Settings → Reset device fingerprint then deleting the app fully removes all on-device data and the pseudonymous fraud-prevention records.</p>
 
-        <h2>10. International Transfers</h2>
-        <p>AI requests, if you trigger them, are processed by OpenAI in jurisdictions disclosed in OpenAI's policy.</p>
+<h2>10. Data retention</h2>
+<p>On-device data persists until you delete it or uninstall the app. We do not retain that content on our servers because we do not collect it.</p>
+<p>For data on our Cloudflare proxy:</p>
+<ul>
+  <li><strong>App Attest key ID and associated AI call / token counters:</strong> kept for up to 180 days from the most recent AI call, then automatically expired by Cloudflare's storage TTL.</li>
+  <li><strong>Premium binding record:</strong> kept until your subscription expires plus a 7-day grace period, then deleted.</li>
+  <li><strong>Short-lived authentication challenges (nonces):</strong> retained for at most 5 minutes.</li>
+  <li><strong>Revocation tombstones</strong> (after you tap Reset device fingerprint, to block replay attacks): kept for 90 days.</li>
+  <li><strong>Daily aggregate spend ledger</strong> (anonymous, for the global usage kill-switch): kept for 3 days.</li>
+</ul>
+<p>Text transiently routed through our proxy to the AI provider is not stored by us beyond the time needed to complete the request (typically under 2 seconds). Cloudflare's standard infrastructure logs are retained per Cloudflare's own retention policy.</p>
 
-        <h2>11. Changes to This Policy</h2>
-        <p>Material changes will be noted in the app's release notes. The "Last updated" date at the top reflects the most recent revision. Continued use after an update means you accept the updated policy.</p>
+<h2>11. Security</h2>
+<p>On-device data is protected by iOS sandboxing, the app's data container, and the device passcode, Face ID, or Touch ID you have configured. Security-relevant flags (the App Attest key identifier, the cached AI usage snapshot, and the Premium binding state) are stored in the iOS Keychain with the most restrictive accessibility flag we can use ("after first unlock, this device only") so they are not synced via iCloud Keychain and are not readable from a backup that has been moved to a different Apple ID.</p>
+<p>All network communications (proxy requests, RevenueCat, App Store) use HTTPS with TLS 1.2 or higher. Our proxy authenticates every AI request using Apple App Attest, a cryptographic challenge-response protocol provided by Apple's operating system that proves the request came from an unmodified copy of this app on a real Apple device. Apple subscription receipts are independently verified server-side against Apple's published certificate chain before any Premium quota is granted.</p>
+<p>The proxy enforces per-device daily, weekly, and monthly call and token ceilings, a burst-rate cooldown, and a global daily spend ceiling that automatically falls back to offline mode if exceeded. These measures protect both the service and your data from being exploited by automated abuse.</p>
+<p>We do not operate user-account databases, persistent application servers, or any storage that ties an identity to your usage.</p>
 
-        <h2>12. Contact</h2>
-        <p>Questions, requests, or concerns: <a href="mailto:the.real.momentum.app@gmail.com">the.real.momentum.app@gmail.com</a>.</p>
+<h2>12. International data transfers</h2>
+<p>When you voluntarily trigger an AI feature, your text is routed through Cloudflare Workers infrastructure (global edge network, primarily processed at the Cloudflare data center closest to you) to Google's Gemini API (data centers in the United States and potentially other locations). Both Cloudflare and Google participate in the EU–US Data Privacy Framework. For transfers from the UK, Standard Contractual Clauses are available from both providers. The pseudonymous App Attest key ID and Premium binding records are stored in Cloudflare KV and Durable Objects, which run on Cloudflare's global edge network with the same legal-transfer safeguards.</p>
 
-        <div class="footer">
-            <p>Momentum ADHD &copy; 2026 Adrian Gratar. All rights reserved.</p>
-        </div>
-    </div>
+<h2>13. Changes to this policy</h2>
+<p>If we make material changes, we will note them in the app's release notes and update the "Last updated" date at the top of this policy. Continued use of the app after a change constitutes acceptance of the updated policy.</p>
+
+<h2>14. Contact</h2>
+<p>Privacy questions, data requests, or concerns:<br>
+<strong><a href="mailto:the.real.momentum.app@gmail.com">the.real.momentum.app@gmail.com</a></strong></p>
+<p>We aim to respond to privacy-related inquiries within 30 days.</p>
+
+<footer>© 2026 Adrian Gratar. Momentum is an independent iOS application.</footer>
+</main>
 </body>
 </html>
